@@ -1,0 +1,57 @@
+/* Experience Component */
+.experience-section {
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  padding: 40px 20px;
+  color: white;
+}
+
+.experience-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.experience-container {
+background: linear-gradient(to right, #2b6cb0, #663399, #3b82f6);
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.experience-card {
+  background: #1a202c;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.experience-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.experience-card p {
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .experience-container {
+    flex-direction: column;
+  }
+}
